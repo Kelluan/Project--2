@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Responsive Layout</title>
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="outer-nav">
+                <h2 class="nav-name">Donkovsky</h2>
+                <nav class="inner-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="#profile" class="container">
+                <img src="responsive-layout-profile.png" alt="profile pic" class="profile-pic">
+            <article class="intro">
+                <h4>Hi, I'm a front-end web developer who loves responsive layout and css.I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</h4>
+            </article>
+        </div>
+        <main>
+        <section class="Portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <ul class="gallery">
+                <li>
+                    <div class="outer-image">
+                        <img src="portfolio-1.png" alt="calculator" class="project">
+                    </div>
+                    <article class="project-div">
+                        <h4>Marketing Page</h4>
+                        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+                    </article>
+                </li>
+                <li>
+                    <div class="outer-image">
+                        <img src="portfolio-2.png" alt="calculator" class="project">
+                    </div>
+                    <article class="project-div">
+                        <h4>Search Page</h4>
+                        <p>This projects searches through a specific database to find information that the user is trying to look up.</p>
+                    </article>
+                </li>
+                <li>
+                    <div class="outer-image">
+                        <img src="portfolio-3.png" alt="calculator" class="project">
+                    </div>
+                    <article class="project-div">
+                        <h4>Travel App</h4>
+                        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+                    </article>
+                </li>
+                <li>
+                    <div class="outer-image">
+                        <img src="portfolio-4.png" alt="calculator" class="project">
+                    </div>
+                    <article class="project-div">
+                        <h4>Map of favorite sports</h4>
+                        <p>This project uses mapping API's to plot points for my favorite sports in the city for a do-it-yourself walking tour.</p>
+                    </article>
+                </li>
+                <li>
+                    <div class="outer-image">
+                        <img src="portfolio-5.png" alt="calculator" class="project">
+                    </div>
+                    <article class="project-div">
+                        <h4>Photo Gallery</h4>
+                        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+                    </article>
+                </li>
+                <li>
+                    <div class="outer-image">
+                        <img src="portfolio-6.png" alt="calculator" class="project">
+                    </div>
+                    <article class="project-div">
+                        <h4>Calculator</h4>
+                        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        </main>
+    <div id="contact" class="contact-div">
+        <h2>Contact</h2>
+        <p>If you are interested in chatting or want to know more information about what I've been working on, I'd love to hear from you!</p>
+        <ul>
+            <li>Phone: +1(111)-535-1234</li>
+            <li>Email: <a href="mailto:Valstepanov9@gmail.com" class="social email">ValStepanov9@gmail.com</a></li>
+        </ul>
+    </div>
+    <footer class="main-footer">
+        <div class="outer-nav">
+            <h2 class="nav-name">Donkovsky</h2>
+            <a href="#" class="to-top">Back to top</a> 
+            <nav class="inner-nav"> <!--Breaks at 401px. Should I make another @media querie for that?-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+    </footer>
+    </body>
+</html>
