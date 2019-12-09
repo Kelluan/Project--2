@@ -233,7 +233,7 @@ Media Queries
         display:flex;
         flex-wrap:wrap; 
         max-height:660px;
-        justify-content:right;
+        margin:0 auto;
     }
     .inner-nav {
         display:initial;
