@@ -10,6 +10,10 @@ body {
     width:100%;
     background-color:#d8d8d8;
     text-align:center;
+    margin:0;
+}
+ul {
+    padding-left:0;
 }
 /*=========================
 Navigation 
@@ -28,7 +32,7 @@ Navigation
 }
 .inner-nav {
     text-align: center;
-    display: inline-block;
+    /*display: inline-block;*/
     padding:0;
     width:100%;
     margin:0 auto;
@@ -73,8 +77,9 @@ Profile
 .container {
     /*display:initial;*/
     text-align:center;
-    margin-left:50px;
-    margin-right:2em;
+    padding:0 15px;
+    /*margin-left:50px;
+    margin-right:2em;*/
 }
 .container img {
     max-width:100%;
@@ -85,19 +90,19 @@ Profile
 Portfolio
 ===========================*/
 section {
-    display:table;
     width:97%;
     margin:100px auto;
     background-color:#e8e8e8;
+    padding-bottom:10px;
 }
-.gallery {
+/*.gallery {
     width:90%;
     overflow:auto;
     display:flex;
     flex-wrap:wrap;
     max-height:2400px;
     justify-content:center;
-}
+}*/
 .gallery li {
     max-height:400px;
     max-width:280px;
@@ -106,6 +111,7 @@ section {
 }
 ul {
     list-style-type:none;
+    padding:0;
 }
 .project {
     margin:0 auto;
@@ -173,6 +179,16 @@ Media Queries
         padding:10px 15px;
         overflow:auto;
     }
+    .gallery {
+        width:90%;
+        overflow:auto;
+        display:flex;
+        flex-wrap:wrap;
+        max-height:2400px;
+        justify-content:center;
+        margin:0 auto;
+        flex-direction:row;
+    }
     .inner-nav li {
         display:inline;
         text-align:center;
@@ -213,11 +229,11 @@ Media Queries
     .gallery {
         width:90%;
         overflow:auto;
-        flex-direction:column;
+        /*flex-direction:column;*/
         display:flex;
         flex-wrap:wrap; 
         max-height:660px;
-        justify-content:center;
+        justify-content:right;
     }
     .inner-nav {
         display:initial;
